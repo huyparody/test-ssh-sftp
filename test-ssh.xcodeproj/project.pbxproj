@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF5DD65CFEF855ED2A070C3 /* Pods_test_ssh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B727059250F6865F6AACC11B /* Pods_test_ssh.framework */; };
+		4755EC6787F881A3D7E1960A /* Pods_test_ssh_test_sshUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */; };
+		C33222EF29D0ABC3001F9B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33222EE29D0ABC3001F9B3D /* AppDelegate.swift */; };
+		C33222F129D0ABC3001F9B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33222F029D0ABC3001F9B3D /* SceneDelegate.swift */; };
+		C33222F329D0ABC3001F9B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33222F229D0ABC3001F9B3D /* ViewController.swift */; };
+		C33222F629D0ABC3001F9B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33222F429D0ABC3001F9B3D /* Main.storyboard */; };
+		C33222F829D0ABC3001F9B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33222F729D0ABC3001F9B3D /* Assets.xcassets */; };
+		C33222FB29D0ABC3001F9B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33222F929D0ABC3001F9B3D /* LaunchScreen.storyboard */; };
+		C332230629D0ABC4001F9B3D /* test_sshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332230529D0ABC4001F9B3D /* test_sshTests.swift */; };
+		C332231029D0ABC4001F9B3D /* test_sshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332230F29D0ABC4001F9B3D /* test_sshUITests.swift */; };
+		C332231229D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332231129D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift */; };
+		C332232229D0AC63001F9B3D /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232129D0AC63001F9B3D /* BonjourBrowser.swift */; };
+		C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */; };
+		E4741581C5EA69078F4983CE /* Pods_test_sshTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219230104FF2541509589FE /* Pods_test_sshTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C332230229D0ABC4001F9B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33222E329D0ABC3001F9B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33222EA29D0ABC3001F9B3D;
+			remoteInfo = "test-ssh";
+		};
+		C332230C29D0ABC4001F9B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33222E329D0ABC3001F9B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33222EA29D0ABC3001F9B3D;
+			remoteInfo = "test-ssh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0381FDBA469DC4D746911DAD /* Pods-test-ssh-test-sshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssh-test-sshUITests.release.xcconfig"; path = "Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		03FA21E5961E2F6A9A47D653 /* Pods-test-sshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-sshTests.release.xcconfig"; path = "Target Support Files/Pods-test-sshTests/Pods-test-sshTests.release.xcconfig"; sourceTree = "<group>"; };
+		151015F7A48CF9EAD9F1695E /* Pods-test-sshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-sshTests.debug.xcconfig"; path = "Target Support Files/Pods-test-sshTests/Pods-test-sshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2186C64B434E28DE47F7BE86 /* Pods-test-ssh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssh.release.xcconfig"; path = "Target Support Files/Pods-test-ssh/Pods-test-ssh.release.xcconfig"; sourceTree = "<group>"; };
+		3F8FBB286101E8552B83CF84 /* Pods-test-ssh-test-sshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssh-test-sshUITests.debug.xcconfig"; path = "Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		579D24FA17713300B4F508D0 /* Pods-test-ssh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssh.debug.xcconfig"; path = "Target Support Files/Pods-test-ssh/Pods-test-ssh.debug.xcconfig"; sourceTree = "<group>"; };
+		A219230104FF2541509589FE /* Pods_test_sshTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_sshTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B727059250F6865F6AACC11B /* Pods_test_ssh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ssh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33222EB29D0ABC3001F9B3D /* test-ssh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ssh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33222EE29D0ABC3001F9B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C33222F029D0ABC3001F9B3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C33222F229D0ABC3001F9B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33222F529D0ABC3001F9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33222F729D0ABC3001F9B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33222FA29D0ABC3001F9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33222FC29D0ABC3001F9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C332230129D0ABC4001F9B3D /* test-sshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-sshTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C332230529D0ABC4001F9B3D /* test_sshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sshTests.swift; sourceTree = "<group>"; };
+		C332230B29D0ABC4001F9B3D /* test-sshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-sshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C332230F29D0ABC4001F9B3D /* test_sshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sshUITests.swift; sourceTree = "<group>"; };
+		C332231129D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C332232129D0AC63001F9B3D /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkAuthorization.swift; sourceTree = "<group>"; };
+		E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ssh_test_sshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33222E829D0ABC3001F9B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF5DD65CFEF855ED2A070C3 /* Pods_test_ssh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33222FE29D0ABC4001F9B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4741581C5EA69078F4983CE /* Pods_test_sshTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C332230829D0ABC4001F9B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4755EC6787F881A3D7E1960A /* Pods_test_ssh_test_sshUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE965C96159DEBD35482576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B727059250F6865F6AACC11B /* Pods_test_ssh.framework */,
+				E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */,
+				A219230104FF2541509589FE /* Pods_test_sshTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33222E229D0ABC3001F9B3D = {
+			isa = PBXGroup;
+			children = (
+				C33222ED29D0ABC3001F9B3D /* test-ssh */,
+				C332230429D0ABC4001F9B3D /* test-sshTests */,
+				C332230E29D0ABC4001F9B3D /* test-sshUITests */,
+				C33222EC29D0ABC3001F9B3D /* Products */,
+				ED9FEBC9451B7EBB484E08B7 /* Pods */,
+				0BE965C96159DEBD35482576 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C33222EC29D0ABC3001F9B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33222EB29D0ABC3001F9B3D /* test-ssh.app */,
+				C332230129D0ABC4001F9B3D /* test-sshTests.xctest */,
+				C332230B29D0ABC4001F9B3D /* test-sshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33222ED29D0ABC3001F9B3D /* test-ssh */ = {
+			isa = PBXGroup;
+			children = (
+				C33222EE29D0ABC3001F9B3D /* AppDelegate.swift */,
+				C33222F029D0ABC3001F9B3D /* SceneDelegate.swift */,
+				C33222F229D0ABC3001F9B3D /* ViewController.swift */,
+				C33222F429D0ABC3001F9B3D /* Main.storyboard */,
+				C33222F729D0ABC3001F9B3D /* Assets.xcassets */,
+				C33222F929D0ABC3001F9B3D /* LaunchScreen.storyboard */,
+				C33222FC29D0ABC3001F9B3D /* Info.plist */,
+				C332232129D0AC63001F9B3D /* BonjourBrowser.swift */,
+				C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */,
+			);
+			path = "test-ssh";
+			sourceTree = "<group>";
+		};
+		C332230429D0ABC4001F9B3D /* test-sshTests */ = {
+			isa = PBXGroup;
+			children = (
+				C332230529D0ABC4001F9B3D /* test_sshTests.swift */,
+			);
+			path = "test-sshTests";
+			sourceTree = "<group>";
+		};
+		C332230E29D0ABC4001F9B3D /* test-sshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C332230F29D0ABC4001F9B3D /* test_sshUITests.swift */,
+				C332231129D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift */,
+			);
+			path = "test-sshUITests";
+			sourceTree = "<group>";
+		};
+		ED9FEBC9451B7EBB484E08B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				579D24FA17713300B4F508D0 /* Pods-test-ssh.debug.xcconfig */,
+				2186C64B434E28DE47F7BE86 /* Pods-test-ssh.release.xcconfig */,
+				3F8FBB286101E8552B83CF84 /* Pods-test-ssh-test-sshUITests.debug.xcconfig */,
+				0381FDBA469DC4D746911DAD /* Pods-test-ssh-test-sshUITests.release.xcconfig */,
+				151015F7A48CF9EAD9F1695E /* Pods-test-sshTests.debug.xcconfig */,
+				03FA21E5961E2F6A9A47D653 /* Pods-test-sshTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33222EA29D0ABC3001F9B3D /* test-ssh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C332231529D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-ssh" */;
+			buildPhases = (
+				A155D2636C34FD6933D182C7 /* [CP] Check Pods Manifest.lock */,
+				C33222E729D0ABC3001F9B3D /* Sources */,
+				C33222E829D0ABC3001F9B3D /* Frameworks */,
+				C33222E929D0ABC3001F9B3D /* Resources */,
+				63C964E41A67E2F681B90A34 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-ssh";
+			productName = "test-ssh";
+			productReference = C33222EB29D0ABC3001F9B3D /* test-ssh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C332230029D0ABC4001F9B3D /* test-sshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C332231829D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-sshTests" */;
+			buildPhases = (
+				6096B4B725BA2493915FE76D /* [CP] Check Pods Manifest.lock */,
+				C33222FD29D0ABC4001F9B3D /* Sources */,
+				C33222FE29D0ABC4001F9B3D /* Frameworks */,
+				C33222FF29D0ABC4001F9B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C332230329D0ABC4001F9B3D /* PBXTargetDependency */,
+			);
+			name = "test-sshTests";
+			productName = "test-sshTests";
+			productReference = C332230129D0ABC4001F9B3D /* test-sshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C332230A29D0ABC4001F9B3D /* test-sshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C332231B29D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-sshUITests" */;
+			buildPhases = (
+				0166B9E15849340181FDF549 /* [CP] Check Pods Manifest.lock */,
+				C332230729D0ABC4001F9B3D /* Sources */,
+				C332230829D0ABC4001F9B3D /* Frameworks */,
+				C332230929D0ABC4001F9B3D /* Resources */,
+				F5D6620CCB174ACB66FF7418 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C332230D29D0ABC4001F9B3D /* PBXTargetDependency */,
+			);
+			name = "test-sshUITests";
+			productName = "test-sshUITests";
+			productReference = C332230B29D0ABC4001F9B3D /* test-sshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33222E329D0ABC3001F9B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C33222EA29D0ABC3001F9B3D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C332230029D0ABC4001F9B3D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C33222EA29D0ABC3001F9B3D;
+					};
+					C332230A29D0ABC4001F9B3D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C33222EA29D0ABC3001F9B3D;
+					};
+				};
+			};
+			buildConfigurationList = C33222E629D0ABC3001F9B3D /* Build configuration list for PBXProject "test-ssh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33222E229D0ABC3001F9B3D;
+			productRefGroup = C33222EC29D0ABC3001F9B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33222EA29D0ABC3001F9B3D /* test-ssh */,
+				C332230029D0ABC4001F9B3D /* test-sshTests */,
+				C332230A29D0ABC4001F9B3D /* test-sshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33222E929D0ABC3001F9B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33222FB29D0ABC3001F9B3D /* LaunchScreen.storyboard in Resources */,
+				C33222F829D0ABC3001F9B3D /* Assets.xcassets in Resources */,
+				C33222F629D0ABC3001F9B3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33222FF29D0ABC4001F9B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C332230929D0ABC4001F9B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0166B9E15849340181FDF549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-ssh-test-sshUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6096B4B725BA2493915FE76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-sshTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C964E41A67E2F681B90A34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-ssh/Pods-test-ssh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-ssh/Pods-test-ssh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test-ssh/Pods-test-ssh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A155D2636C34FD6933D182C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-ssh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D6620CCB174ACB66FF7418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33222E729D0ABC3001F9B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33222F329D0ABC3001F9B3D /* ViewController.swift in Sources */,
+				C33222EF29D0ABC3001F9B3D /* AppDelegate.swift in Sources */,
+				C332232229D0AC63001F9B3D /* BonjourBrowser.swift in Sources */,
+				C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */,
+				C33222F129D0ABC3001F9B3D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33222FD29D0ABC4001F9B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332230629D0ABC4001F9B3D /* test_sshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C332230729D0ABC4001F9B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332231229D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift in Sources */,
+				C332231029D0ABC4001F9B3D /* test_sshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C332230329D0ABC4001F9B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33222EA29D0ABC3001F9B3D /* test-ssh */;
+			targetProxy = C332230229D0ABC4001F9B3D /* PBXContainerItemProxy */;
+		};
+		C332230D29D0ABC4001F9B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33222EA29D0ABC3001F9B3D /* test-ssh */;
+			targetProxy = C332230C29D0ABC4001F9B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33222F429D0ABC3001F9B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33222F529D0ABC3001F9B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33222F929D0ABC3001F9B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33222FA29D0ABC3001F9B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C332231329D0ABC4001F9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C332231429D0ABC4001F9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C332231629D0ABC4001F9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579D24FA17713300B4F508D0 /* Pods-test-ssh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-ssh/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C332231729D0ABC4001F9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2186C64B434E28DE47F7BE86 /* Pods-test-ssh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-ssh/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C332231929D0ABC4001F9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151015F7A48CF9EAD9F1695E /* Pods-test-sshTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-sshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ssh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test-ssh";
+			};
+			name = Debug;
+		};
+		C332231A29D0ABC4001F9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FA21E5961E2F6A9A47D653 /* Pods-test-sshTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-sshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ssh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test-ssh";
+			};
+			name = Release;
+		};
+		C332231C29D0ABC4001F9B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8FBB286101E8552B83CF84 /* Pods-test-ssh-test-sshUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-sshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-ssh";
+			};
+			name = Debug;
+		};
+		C332231D29D0ABC4001F9B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0381FDBA469DC4D746911DAD /* Pods-test-ssh-test-sshUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-sshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-ssh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33222E629D0ABC3001F9B3D /* Build configuration list for PBXProject "test-ssh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332231329D0ABC4001F9B3D /* Debug */,
+				C332231429D0ABC4001F9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C332231529D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-ssh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332231629D0ABC4001F9B3D /* Debug */,
+				C332231729D0ABC4001F9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C332231829D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-sshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332231929D0ABC4001F9B3D /* Debug */,
+				C332231A29D0ABC4001F9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C332231B29D0ABC4001F9B3D /* Build configuration list for PBXNativeTarget "test-sshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332231C29D0ABC4001F9B3D /* Debug */,
+				C332231D29D0ABC4001F9B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33222E329D0ABC3001F9B3D /* Project object */;
+}
