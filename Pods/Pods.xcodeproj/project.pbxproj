@@ -7,140 +7,250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9DBA100315C1E5E2A977BDC7DB5F20 /* Pods-test-ssh-test-sshUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618810641F91A34D787F59F7320A8BB /* Pods-test-ssh-test-sshUITests-dummy.m */; };
-		2EAA4405E99D4A40CE7CD1677566A8CE /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */; };
+		0068907DF4886B410B04CA9E96B3EA2E /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F61BAC8184125056922452263106F8 /* GCDWebServerURLEncodedFormRequest.m */; };
+		0A5610D1151193E07CAFEC16F7391AB5 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB79150722C76FC7F669CEE92747E49 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F179176EF9A451BF24DADAD4B624C44 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B9DE9A2D494B2FFA22767D4817C37 /* GCDWebServerStreamedResponse.m */; };
+		1F878440ABCB2268CFB20BA428A0499E /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 580BC400180C5C80549E7B1E3C73450D /* GCDWebServer-dummy.m */; };
+		2EAA4405E99D4A40CE7CD1677566A8CE /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B3264F2A5AD053316C3F252E2C0D0 /* NMSFTP.m */; };
 		31DE29C8897DFFC3BE6D5DF420597F62 /* Pods-test-sshTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DB9CB0ECF36A899CE61BB76B1EE182 /* Pods-test-sshTests-dummy.m */; };
-		3ABC071EF2FC1BCC26011DF3958DBCBF /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43A363006B4974CBFF097195AF8999C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		444982A9697B70038C749064CA828EDB /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */; };
-		4853B3F0849547F1D4DEF930642772CF /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */; };
-		4E1F24FBB5903999CDD34B0F92D22E5D /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E7FA8778A68B8EDB8A92F363A266A75 /* Pods-test-ssh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AF844F2981FD3463FCBB4CB8552489 /* Pods-test-ssh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54A486FE1A83B84A3E222E66833306EB /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54BC4C6B640B9AEA161403B18A5B1B0C /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C343F72D128D9B8631C9E60983F8B04 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		613AC42CAE1730B632BE132A87E5D72F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		649EAF446DCBC6C4B31BCBD09A61BBC9 /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		682057B0AA6B4E8207149D46EC0EF544 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F4181AE261F8841B152788B193C3B42 /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */; };
-		76248558FED20F9FFF2185B38EB1BBC8 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */; };
-		82F9175C3B044B529490F4DF70516E85 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		835359C058D96007C040A4BE1ED7EB34 /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85788A77DFD9866B4F6BA79014A145CA /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3A743CD8797007653DC2206429593A66 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E0DE974ABED9F65908795669ADCED6 /* GCDWebServerDataRequest.m */; };
+		3ABC071EF2FC1BCC26011DF3958DBCBF /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8EACDF1632687EDB7E74C62C85953A /* NMSSHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C11C295A50CFF7D6BE887681F00D924 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ABDC1F64B1E4410B8C9A97841F5FA3 /* GCDWebServerResponse.m */; };
+		42D3F1FBFC4C2516ACBBB6290A3E04E2 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FA5B816B7C82378DE2A0BC735C637 /* GCDWebServerFileResponse.m */; };
+		43A363006B4974CBFF097195AF8999C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */; };
+		444982A9697B70038C749064CA828EDB /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D553FE257389B4898E9D005DF9420116 /* NMSSHChannel.m */; };
+		45D0C4D6D0B78468FF7142487BAF12B9 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CF7C64C184C40B9528F9D4FE6D09A9 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4853B3F0849547F1D4DEF930642772CF /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19E8563BF657D296B91841EFEDE3F1 /* NMSFTPFile.m */; };
+		48C9C6190D23AADCCE5FBB7AFBBC89C2 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43771E8F8489F7AA62C3BA89CFF3F868 /* GCDWebServerRequest.m */; };
+		4E1F24FBB5903999CDD34B0F92D22E5D /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DFEA5281C50756304B4CE191CC9E93 /* NMSFTPFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A486FE1A83B84A3E222E66833306EB /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 227D01E119335ECBF62585D9B1C1DE3D /* NMSSHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BC4C6B640B9AEA161403B18A5B1B0C /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D74325F42B2461DD6902140B8C108E /* NMSSHSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C343F72D128D9B8631C9E60983F8B04 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3DAEA376212EEAAC1607DF991EFE43 /* libssh2_publickey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D63CF906DA24C91483F0B71B1026E58 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983B700016CE9279875547D9D4C9D99F /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60095D67FEE8401650E769B74087FAB9 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBC2E03FE277D27D32A6DDC4E99DDC3 /* GCDWebServerFunctions.m */; };
+		62E417FFB705B06C4B13A9D44C7BC5CA /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 029AA5B228BCBF6222F9CFA527376C1A /* GCDWebServerErrorResponse.m */; };
+		647F539E1E2FAB0DE6943800BF856A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */; };
+		649EAF446DCBC6C4B31BCBD09A61BBC9 /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF1C0AD34111FA30C7167680E5D72D6 /* NMSSHHostConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64AAB9781B62B323C8E0BD67CD619B4F /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B5262D7B64676F22FD31B5D40E5D94 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FD6DA4C2464AA6AA196DBC84FE4BFE /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3628A1EE9725501A66BEB47D4B1F1D /* GCDWebServerConnection.m */; };
+		675614EA9F6E7D664531D0D5D0510414 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BF626D68794D2333A8CE995FFDEDE019 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		682057B0AA6B4E8207149D46EC0EF544 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = C25F7690857C10EEE8FDC1C5A88DB496 /* libssh2_sftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE31C935DBDB37868B2259A217ADD04 /* Pods-test-ssh-test-sshUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618810641F91A34D787F59F7320A8BB /* Pods-test-ssh-test-sshUITests-dummy.m */; };
+		6F4181AE261F8841B152788B193C3B42 /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE957377B8EBE4E6E3DC0AD0714BCE41 /* NMSSHConfig.m */; };
+		76248558FED20F9FFF2185B38EB1BBC8 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E16339125E894AC37B6DF031D716A39 /* socket_helper.m */; };
+		79EA723D08980C26B04E7BD8E8240E1B /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E35ABC935485AEF5F352CB6C7567AE /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8A4A07043909D6C526DC4082CB81A4 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A12CDAC70A6710996815048A78940F /* GCDWebServerDataResponse.m */; };
+		819451541A694B71F23821F3ABCF1436 /* GCDWebUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = DE21C2785A5A354E141B795909BFA192 /* GCDWebUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F9175C3B044B529490F4DF70516E85 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 968D30FECFE9CBBC77FE21525BBCED85 /* libssh2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835359C058D96007C040A4BE1ED7EB34 /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CBF58A36C0B57816D098BCD316250C /* NMSSHChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D513324D8F12CBE82A11B2DE35AF32 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 699EF2B08FB8759A5F69740416DB6267 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85788A77DFD9866B4F6BA79014A145CA /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = AD33F6703AD9C74EB9B17A3A2A1B266F /* NMSSH+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		864852E669BFF3E6694A05A6C22ADB8B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA1C1073651CD11E5EAFB9310ADE83E /* MobileCoreServices.framework */; };
+		879AB65ADFB80C9F54C370222D3E1519 /* Pods-test-ssh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9251D52BBC48C1347060845C6FC08EF6 /* Pods-test-ssh-dummy.m */; };
+		8CEF3AEF941FEFF5BAC4B4DE6F047155 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C79FC00D9F532CA2696DDC963B3F806F /* GCDWebUploader.bundle */; };
 		8D41F72EF78A478502E48664E691F475 /* Pods-test-sshTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5917036FCEBFC1FCEB20D619B865E9 /* Pods-test-sshTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E59146CAB7445B8AAF076BB9047DC6C /* NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */; };
-		A937A2F5F56CB574F4973C92EDBC2B8E /* Pods-test-ssh-test-sshUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1563E744500F7BA5A05A1ACF46DBD79D /* Pods-test-ssh-test-sshUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5CD6882D9F639F9DCF4F96A40ADCEF /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B19AE031E6CCEC02B4899450D6C43FBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
-		BBEA93C7597718F155AECD4314BD34F4 /* NMSSH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2D909BDCA5964915EE47E73C3E46F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		C76AAB6AE1C6FD8C98A69F4D241CDAA3 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 04508640C85EC65065D04E9859398C86 /* NMSSH.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9DD0AF511774EDEAD252BB0504D7322 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */; };
-		CE17B6FB683C51DE880907E7FD5F64A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		D49FB2E21A69F73A78C368024686F3DE /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7200A2AF94FA6A3558E8EB9CEEE17B0 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D919669B28569DD512CDC8772C467AAF /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA1159960CB45C1E2B49A49EC4687B34 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE6EA5B3916F331033270E16FDA23791 /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */; };
-		EC3964816C2827AF46B3B8632D52D92B /* Pods-test-ssh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9251D52BBC48C1347060845C6FC08EF6 /* Pods-test-ssh-dummy.m */; };
-		F318459517B3E25BE7AD3648F0447F37 /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */; };
+		90332903F0AE2E3A1A4F70DB8D501322 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C337B2521A9490D4D3EE3BD254BF6 /* CFNetwork.framework */; };
+		92CBA78793C86A771E20CAC9C6BCD1B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */; };
+		9AE83CA45F24CBD9E28F19354AF6DCF7 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 421610A9912DCFDE5F0DDB5E82E0FEBF /* GCDWebServerMultiPartFormRequest.m */; };
+		9E057AFA4108DBDB2CCAB9C00A2608F4 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F20F9184AC5D566ADF4042F92A825CA /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E59146CAB7445B8AAF076BB9047DC6C /* NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D02B763FE2400A683B1ECB3196EB91 /* NMSSH-dummy.m */; };
+		9F1EBB7C3AFFB6CD771E0DFF0081AAAE /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F031B3D8BD14AEE5C7A8C2D39A7915DB /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A235526B09D8075995D15803F5277A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */; };
+		A66FE9BB3923B479BC9FF6E413F0E07A /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B726CFBA62DACC471C29704F0DEE33E3 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8062A665C463A309335804428A3E268 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD90446D3E669FFF78B93DD2897FA11 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4CCAB0CE6E0D373C52A4C6E4C13515 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF705566104885ABDE1735786B969CE /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5CD6882D9F639F9DCF4F96A40ADCEF /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBA8DC549026E3A0CDE52836E60FB38 /* socket_helper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB8A9981FC5FCC767BDFACAA9B0C3AB7 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DC99EDE5EE84EC69498E3F4050046616 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19AE031E6CCEC02B4899450D6C43FBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C337B2521A9490D4D3EE3BD254BF6 /* CFNetwork.framework */; };
+		B7D00A07C7A95F770B1A26455C23CA13 /* GCDWebDAVServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99ECC073F9B51AAED0F42323F0319A /* GCDWebDAVServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEA93C7597718F155AECD4314BD34F4 /* NMSSH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FEC76F7C7E39B99E3C79B37F216309 /* NMSSH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76AAB6AE1C6FD8C98A69F4D241CDAA3 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 89745DA13B51D8B5FE3D55E60B8D7960 /* NMSSH.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9DD0AF511774EDEAD252BB0504D7322 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E3DB36641DDDEF50573F1E3204E07 /* NMSSHLogger.m */; };
+		CE17B6FB683C51DE880907E7FD5F64A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */; };
+		D49FB2E21A69F73A78C368024686F3DE /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C020EEFD11D63F9A69E5D7D40A59DB /* NMSSHChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7200A2AF94FA6A3558E8EB9CEEE17B0 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 11119E7BEA76D5B41D7E4855A48D3AC7 /* NMSSHSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D919669B28569DD512CDC8772C467AAF /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC12E73F113141EB39A5ECE0DDB98EA /* NMSSH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1159960CB45C1E2B49A49EC4687B34 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B49892DA679D12EB1D2A26A7F7BD3C /* NMSFTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2AB15F19ED314816D5A2732F77BC62 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB7AD4252D15C303A785A8BA5FDD1D /* GCDWebUploader.m */; };
+		DE6EA5B3916F331033270E16FDA23791 /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DEA432302BE8CEE94E07C463BAA98B /* NMSSHSession.m */; };
+		E32052208A832E3D0DDA005164A4CC1C /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FFC2012A0688597E83E5BD179C4B02 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51CAF1380C5A194E3C2FBCA615921D2 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD7C1DA36A8BAD5CE42519D90BB77CF /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8622F8D6BD06020203B800FF4D73741 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A476F0A9CA4DDEADD874846258DE673A /* GCDWebServer.m */; };
+		E8E99822BE1FBF36DF372826E91D785B /* Pods-test-ssh-test-sshUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1563E744500F7BA5A05A1ACF46DBD79D /* Pods-test-ssh-test-sshUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F042B50E435E3306FAA9521636FC1857 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C98D03129809642829148FB9CE12866 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F178457D47562B7AC5DDD65A280F22CA /* GCDWebDAVServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65680C75E4844FB9F712FE166AB317 /* GCDWebDAVServer.m */; settings = {COMPILER_FLAGS = "-I$(SDKROOT)/usr/include/libxml2"; }; };
+		F318459517B3E25BE7AD3648F0447F37 /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79A790A87786A39E29C05E6C679877 /* NMSSHHostConfig.m */; };
+		F60D4BDFC711729F936687D4C95192CF /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D624E65672E6A94BD82D4EDB768FC0CF /* GCDWebServerFileRequest.m */; };
+		FF84771C1AE6E45391C52A27A4FC8B8F /* Pods-test-ssh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AF844F2981FD3463FCBB4CB8552489 /* Pods-test-ssh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		113E4044F9F23D1907E475766C30D87F /* PBXContainerItemProxy */ = {
+		061E085E39827E36E70ED4D556C48F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36E3194AA9B06BC5873E083ED10B917;
+			remoteInfo = NMSSH;
+		};
+		3A9C0026E113D0B2E8F97332F05434FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 754E71FC735602AAB7D4DD01668AA4CD;
 			remoteInfo = "Pods-test-ssh";
 		};
-		6C95A6C9A25352C0408403A8EF7A73E1 /* PBXContainerItemProxy */ = {
+		632F33DF9A6A52CC6450782765AC95EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+		6913421E30469F0B75024763B4551405 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E36E3194AA9B06BC5873E083ED10B917;
 			remoteInfo = NMSSH;
 		};
-		9ED80D124225CC4B87AC2E2B171D6172 /* PBXContainerItemProxy */ = {
+		F890369F4202BC9271FAC3F845C4D1FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E36E3194AA9B06BC5873E083ED10B917;
-			remoteInfo = NMSSH;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01C2941BB0D12B84BAF192817ECE52CE /* Pods-test-ssh-test-sshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-ssh-test-sshUITests.release.xcconfig"; sourceTree = "<group>"; };
-		022DD921D4370E6DE33ABFF494BDD44C /* libssh2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssh2.a; path = "NMSSH-iOS/Libraries/lib/libssh2.a"; sourceTree = "<group>"; };
-		034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTPFile.h; path = NMSSH/NMSFTPFile.h; sourceTree = "<group>"; };
-		04508640C85EC65065D04E9859398C86 /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = "NMSSH-iOS/NMSSH.h"; sourceTree = "<group>"; };
-		04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = socket_helper.m; path = NMSSH/Config/socket_helper.m; sourceTree = "<group>"; };
-		0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannelDelegate.h; path = NMSSH/Protocols/NMSSHChannelDelegate.h; sourceTree = "<group>"; };
-		0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHLogger.h; path = NMSSH/Config/NMSSHLogger.h; sourceTree = "<group>"; };
+		029AA5B228BCBF6222F9CFA527376C1A /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		05D3834D57403AD44ECB42C7C15131F1 /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
+		0C8EACDF1632687EDB7E74C62C85953A /* NMSSHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHConfig.h; path = NMSSH/NMSSHConfig.h; sourceTree = "<group>"; };
+		0C9BD54BA080902C17C05F9B2419574C /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
 		0FEE4FB8A5EBFD6A7900A023533B07C8 /* Pods-test-ssh-test-sshUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-ssh-test-sshUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11119E7BEA76D5B41D7E4855A48D3AC7 /* NMSSHSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSession.h; path = NMSSH/NMSSHSession.h; sourceTree = "<group>"; };
+		125C4EFE1963FF98E19A72FF13633D1E /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
 		1563E744500F7BA5A05A1ACF46DBD79D /* Pods-test-ssh-test-sshUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test-ssh-test-sshUITests-umbrella.h"; sourceTree = "<group>"; };
-		16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTP.h; path = NMSSH/NMSFTP.h; sourceTree = "<group>"; };
-		1A2093944D7662D1E50DB163371A3456 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "NMSSH-iOS/Libraries/lib/libssl.a"; sourceTree = "<group>"; };
-		1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannel.h; path = NMSSH/NMSSHChannel.h; sourceTree = "<group>"; };
 		208F7D2836D5A0515C7FB905A6906E79 /* Pods-test-sshTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test-sshTests.modulemap"; sourceTree = "<group>"; };
+		227D01E119335ECBF62585D9B1C1DE3D /* NMSSHLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHLogger.h; path = NMSSH/Config/NMSSHLogger.h; sourceTree = "<group>"; };
+		2462FC95F4EAED216133B18B15C0DD3D /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "NMSSH-iOS/Libraries/lib/libcrypto.a"; sourceTree = "<group>"; };
+		24CB7AD4252D15C303A785A8BA5FDD1D /* GCDWebUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = GCDWebUploader/GCDWebUploader.m; sourceTree = "<group>"; };
 		2618810641F91A34D787F59F7320A8BB /* Pods-test-ssh-test-sshUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-ssh-test-sshUITests-dummy.m"; sourceTree = "<group>"; };
+		28B5262D7B64676F22FD31B5D40E5D94 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
 		28D3A25E11F47E1F0C1615047DEF0E29 /* Pods-test-ssh-test-sshUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-test-ssh-test-sshUITests"; path = Pods_test_ssh_test_sshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29A49FD857460D7C27B855E135F14685 /* NMSSH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMSSH.modulemap; sourceTree = "<group>"; };
+		2BC12E73F113141EB39A5ECE0DDB98EA /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = NMSSH/NMSSH.h; sourceTree = "<group>"; };
 		2BEB85BA1C2ADFE0C2848982A463D318 /* Pods-test-ssh-test-sshUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-ssh-test-sshUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NMSSH+Protected.h"; path = "NMSSH/Config/NMSSH+Protected.h"; sourceTree = "<group>"; };
-		33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = NMSSH/NMSSH.h; sourceTree = "<group>"; };
+		2C98D03129809642829148FB9CE12866 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		2CD90446D3E669FFF78B93DD2897FA11 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		2E16339125E894AC37B6DF031D716A39 /* socket_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = socket_helper.m; path = NMSSH/Config/socket_helper.m; sourceTree = "<group>"; };
 		341FDE11CF3A0A865FEC0C607ED87392 /* Pods-test-sshTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-sshTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37FEC76F7C7E39B99E3C79B37F216309 /* NMSSH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-umbrella.h"; sourceTree = "<group>"; };
 		38DB9CB0ECF36A899CE61BB76B1EE182 /* Pods-test-sshTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-sshTests-dummy.m"; sourceTree = "<group>"; };
-		400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMSSH-dummy.m"; sourceTree = "<group>"; };
-		4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTPFile.m; path = NMSSH/NMSFTPFile.m; sourceTree = "<group>"; };
-		5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-umbrella.h"; sourceTree = "<group>"; };
+		3F20F9184AC5D566ADF4042F92A825CA /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		41A12CDAC70A6710996815048A78940F /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		41A3695B2C54D77775FB940E1B2361D4 /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
+		421610A9912DCFDE5F0DDB5E82E0FEBF /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		43771E8F8489F7AA62C3BA89CFF3F868 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		4D99ECC073F9B51AAED0F42323F0319A /* GCDWebDAVServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebDAVServer.h; path = GCDWebDAVServer/GCDWebDAVServer.h; sourceTree = "<group>"; };
+		4EBC2E03FE277D27D32A6DDC4E99DDC3 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		580BC400180C5C80549E7B1E3C73450D /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		5A3628A1EE9725501A66BEB47D4B1F1D /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
 		5C1862C3ACDBF3A8D1C0B341CFDD9387 /* Pods-test-sshTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-test-sshTests"; path = Pods_test_sshTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_sftp.h"; sourceTree = "<group>"; };
+		5EB79150722C76FC7F669CEE92747E49 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		5F3DAEA376212EEAAC1607DF991EFE43 /* libssh2_publickey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_publickey.h"; sourceTree = "<group>"; };
+		60C020EEFD11D63F9A69E5D7D40A59DB /* NMSSHChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannel.h; path = NMSSH/NMSSHChannel.h; sourceTree = "<group>"; };
 		61169B78DA3DFF0729DD3F2E7D53E0CA /* Pods-test-sshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-sshTests.release.xcconfig"; sourceTree = "<group>"; };
-		613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_helper.h; path = NMSSH/Config/socket_helper.h; sourceTree = "<group>"; };
-		637BA09DF29A7DF4F78F1E4D1FE7C466 /* NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		62DFEA5281C50756304B4CE191CC9E93 /* NMSFTPFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTPFile.h; path = NMSSH/NMSFTPFile.h; sourceTree = "<group>"; };
 		66BB7D91D3675C435C57CDF533D28060 /* Pods-test-ssh */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-test-ssh"; path = Pods_test_ssh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		674D1D5E061B779442C8F765DA962B7D /* Pods-test-ssh-test-sshUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-ssh-test-sshUITests-frameworks.sh"; sourceTree = "<group>"; };
 		68AF844F2981FD3463FCBB4CB8552489 /* Pods-test-ssh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test-ssh-umbrella.h"; sourceTree = "<group>"; };
-		6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHHostConfig.m; path = NMSSH/NMSSHHostConfig.m; sourceTree = "<group>"; };
+		699EF2B08FB8759A5F69740416DB6267 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		6B6C337B2521A9490D4D3EE3BD254BF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		6EEC77F51858349E93EF74E23C115C64 /* NMSSH */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMSSH; path = NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F10867D39927A97841C21B76E371A3D /* Pods-test-ssh-test-sshUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test-ssh-test-sshUITests.modulemap"; sourceTree = "<group>"; };
-		72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHConfig.h; path = NMSSH/NMSSHConfig.h; sourceTree = "<group>"; };
-		7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHChannel.m; path = NMSSH/NMSSHChannel.m; sourceTree = "<group>"; };
+		6F5FA5B816B7C82378DE2A0BC735C637 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		74D74325F42B2461DD6902140B8C108E /* NMSSHSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSessionDelegate.h; path = NMSSH/Protocols/NMSSHSessionDelegate.h; sourceTree = "<group>"; };
+		7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C4B3264F2A5AD053316C3F252E2C0D0 /* NMSFTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTP.m; path = NMSSH/NMSFTP.m; sourceTree = "<group>"; };
+		7E3E3DB36641DDDEF50573F1E3204E07 /* NMSSHLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHLogger.m; path = NMSSH/Config/NMSSHLogger.m; sourceTree = "<group>"; };
 		84471F9D505A233F867CC3A9F54932C3 /* Pods-test-ssh-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-ssh-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHHostConfig.h; path = NMSSH/NMSSHHostConfig.h; sourceTree = "<group>"; };
-		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTP.m; path = NMSSH/NMSFTP.m; sourceTree = "<group>"; };
+		845ADA5E257EDCECF19B803D75349B9A /* NMSSH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMSSH.modulemap; sourceTree = "<group>"; };
+		84D743A1960050EEFB980113285DFC32 /* NMSSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.release.xcconfig; sourceTree = "<group>"; };
+		86E2E12527BFBB6A595F65EF22A2CAE5 /* NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		87CF7C64C184C40B9528F9D4FE6D09A9 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		89745DA13B51D8B5FE3D55E60B8D7960 /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = "NMSSH-iOS/NMSSH.h"; sourceTree = "<group>"; };
 		9251D52BBC48C1347060845C6FC08EF6 /* Pods-test-ssh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-ssh-dummy.m"; sourceTree = "<group>"; };
-		9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHSession.m; path = NMSSH/NMSSHSession.m; sourceTree = "<group>"; };
+		968D30FECFE9CBBC77FE21525BBCED85 /* libssh2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2.h"; sourceTree = "<group>"; };
+		983B700016CE9279875547D9D4C9D99F /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		98B49892DA679D12EB1D2A26A7F7BD3C /* NMSFTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTP.h; path = NMSSH/NMSFTP.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC25013EB613973CF8088B4F2D06DC7 /* Pods-test-sshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-sshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CBF58A36C0B57816D098BCD316250C /* NMSSHChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannelDelegate.h; path = NMSSH/Protocols/NMSSHChannelDelegate.h; sourceTree = "<group>"; };
 		A0CECEF57BEAED1470ECB39552A30BE9 /* Pods-test-sshTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-sshTests-Info.plist"; sourceTree = "<group>"; };
-		A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSessionDelegate.h; path = NMSSH/Protocols/NMSSHSessionDelegate.h; sourceTree = "<group>"; };
-		A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHLogger.m; path = NMSSH/Config/NMSSHLogger.m; sourceTree = "<group>"; };
-		B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHConfig.m; path = NMSSH/NMSSHConfig.m; sourceTree = "<group>"; };
+		A476F0A9CA4DDEADD874846258DE673A /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		A5D02B763FE2400A683B1ECB3196EB91 /* NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMSSH-dummy.m"; sourceTree = "<group>"; };
+		A6FFC2012A0688597E83E5BD179C4B02 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		AB79A790A87786A39E29C05E6C679877 /* NMSSHHostConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHHostConfig.m; path = NMSSH/NMSSHHostConfig.m; sourceTree = "<group>"; };
+		ABF0CA6BC5FB4B4A3F59B0B70D35F695 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "NMSSH-iOS/Libraries/lib/libssl.a"; sourceTree = "<group>"; };
+		ACF1C0AD34111FA30C7167680E5D72D6 /* NMSSHHostConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHHostConfig.h; path = NMSSH/NMSSHHostConfig.h; sourceTree = "<group>"; };
+		AD33F6703AD9C74EB9B17A3A2A1B266F /* NMSSH+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NMSSH+Protected.h"; path = "NMSSH/Config/NMSSH+Protected.h"; sourceTree = "<group>"; };
+		AE957377B8EBE4E6E3DC0AD0714BCE41 /* NMSSHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHConfig.m; path = NMSSH/NMSSHConfig.m; sourceTree = "<group>"; };
 		B4B287CD958DA12B95F2237F578A2C0A /* Pods-test-ssh-test-sshUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-ssh-test-sshUITests-Info.plist"; sourceTree = "<group>"; };
-		B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.debug.xcconfig; sourceTree = "<group>"; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B726CFBA62DACC471C29704F0DEE33E3 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
 		B9F10F574830DCC05D3D349D09901B97 /* Pods-test-ssh-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-ssh-frameworks.sh"; sourceTree = "<group>"; };
-		BA992949B48A28FBDF0B1EDEA564C3FC /* NMSSH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMSSH-Info.plist"; sourceTree = "<group>"; };
-		C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSession.h; path = NMSSH/NMSSHSession.h; sourceTree = "<group>"; };
+		BC65680C75E4844FB9F712FE166AB317 /* GCDWebDAVServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebDAVServer.m; path = GCDWebDAVServer/GCDWebDAVServer.m; sourceTree = "<group>"; };
+		BEBA8DC549026E3A0CDE52836E60FB38 /* socket_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_helper.h; path = NMSSH/Config/socket_helper.h; sourceTree = "<group>"; };
+		BF626D68794D2333A8CE995FFDEDE019 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		C25F7690857C10EEE8FDC1C5A88DB496 /* libssh2_sftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_sftp.h"; sourceTree = "<group>"; };
+		C29B9DE9A2D494B2FFA22767D4817C37 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		C3ABDC1F64B1E4410B8C9A97841F5FA3 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		C3F61BAC8184125056922452263106F8 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		C79FC00D9F532CA2696DDC963B3F806F /* GCDWebUploader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCDWebUploader.bundle; path = GCDWebUploader/GCDWebUploader.bundle; sourceTree = "<group>"; };
 		CD5917036FCEBFC1FCEB20D619B865E9 /* Pods-test-sshTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test-sshTests-umbrella.h"; sourceTree = "<group>"; };
+		CE19E8563BF657D296B91841EFEDE3F1 /* NMSFTPFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTPFile.m; path = NMSSH/NMSFTPFile.m; sourceTree = "<group>"; };
+		CEA1C1073651CD11E5EAFB9310ADE83E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D0220094B7638962EEC9A756BB5BB4D2 /* NMSSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.debug.xcconfig; sourceTree = "<group>"; };
+		D553FE257389B4898E9D005DF9420116 /* NMSSHChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHChannel.m; path = NMSSH/NMSSHChannel.m; sourceTree = "<group>"; };
+		D624E65672E6A94BD82D4EDB768FC0CF /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		D6559AC037CEDBF01B59B9480C88EDD0 /* Pods-test-ssh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test-ssh.modulemap"; sourceTree = "<group>"; };
+		DAD7C1DA36A8BAD5CE42519D90BB77CF /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		DC99EDE5EE84EC69498E3F4050046616 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
 		DD0A886C3B2E3D1395A8E64D1206C013 /* Pods-test-ssh-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-ssh-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDF0E4194D3A6EF43F4D2F12A04C9D5C /* Pods-test-ssh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-ssh-Info.plist"; sourceTree = "<group>"; };
+		DE21C2785A5A354E141B795909BFA192 /* GCDWebUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = GCDWebUploader/GCDWebUploader.h; sourceTree = "<group>"; };
 		DE652A964E1CAE90DF7DC2118D4FFE90 /* Pods-test-ssh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-ssh.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB7BBBB23EFDDCE067A08B543A76DCF /* libssh2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssh2.a; path = "NMSSH-iOS/Libraries/lib/libssh2.a"; sourceTree = "<group>"; };
 		E4DFD35D532C3366E9960DE93CAAE248 /* Pods-test-sshTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-sshTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF10C3D2C815AE0C21345F48E413E1FE /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "NMSSH-iOS/Libraries/lib/libcrypto.a"; sourceTree = "<group>"; };
+		E57C4C85DD3ADCC1B864FE40EEC9CDC8 /* NMSSH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMSSH-Info.plist"; sourceTree = "<group>"; };
+		EEF705566104885ABDE1735786B969CE /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		F031B3D8BD14AEE5C7A8C2D39A7915DB /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
 		F07C8603A91B61C01BCE05E17BBC913B /* Pods-test-ssh-test-sshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-ssh-test-sshUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2.h"; sourceTree = "<group>"; };
-		F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMSSH.release.xcconfig; sourceTree = "<group>"; };
-		F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = "NMSSH-iOS/Libraries/include/libssh2/libssh2_publickey.h"; sourceTree = "<group>"; };
-		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0E35ABC935485AEF5F352CB6C7567AE /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		F7E0DE974ABED9F65908795669ADCED6 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		F9DEA432302BE8CEE94E07C463BAA98B /* NMSSHSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHSession.m; path = NMSSH/NMSSHSession.m; sourceTree = "<group>"; };
+		FB586F7B30E318E534DAF44AB480DCF4 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
 		FEE61406494D2826D1DC33C1FB6F943B /* Pods-test-ssh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-ssh.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00B39D70D27AA1BAADBE0F70B2763C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBA78793C86A771E20CAC9C6BCD1B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E253057EE4602017E90CE0D889DFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235526B09D8075995D15803F5277A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57C4E633B1A1E1D8BD879176232629BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,19 +260,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FD69CA127122D9D900F82584F2DF7D4 /* Frameworks */ = {
+		AA2AA3D9466B7F4555779297DEBFC0EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D909BDCA5964915EE47E73C3E46F7A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3EBC5EAD5EC439F6F1D44D9FB23C0FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				613AC42CAE1730B632BE132A87E5D72F /* Foundation.framework in Frameworks */,
+				90332903F0AE2E3A1A4F70DB8D501322 /* CFNetwork.framework in Frameworks */,
+				647F539E1E2FAB0DE6943800BF856A09 /* Foundation.framework in Frameworks */,
+				864852E669BFF3E6694A05A6C22ADB8B /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,67 +281,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08DCF7861B620821F210AB03EDA3E308 /* Products */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EEC77F51858349E93EF74E23C115C64 /* NMSSH */,
-				66BB7D91D3675C435C57CDF533D28060 /* Pods-test-ssh */,
-				28D3A25E11F47E1F0C1615047DEF0E29 /* Pods-test-ssh-test-sshUITests */,
-				5C1862C3ACDBF3A8D1C0B341CFDD9387 /* Pods-test-sshTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+				180F6D477E0A5C8DE9E6C44AF948E735 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		227C294C046C3FDE2D181914AF4B6E35 /* NMSSH */ = {
+		14E3E2E9B722ABD4C6E2FC3A6193F970 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2BFA33C4D3CE921D5B9B3EE0C6E1905 /* libssh2.h */,
-				F6DF5672E48C3FF2485965DB9C697F99 /* libssh2_publickey.h */,
-				5C5F3D3C7F426B13053E1DE80D5308B9 /* libssh2_sftp.h */,
-				16009494DCA35C5757C85EDA5AA88F47 /* NMSFTP.h */,
-				8DCD1DA96696CE9464132D9AF22C3B17 /* NMSFTP.m */,
-				034B7B409A15A183076E53AD93653448 /* NMSFTPFile.h */,
-				4BB28FE67014FC82B75675735C6020A2 /* NMSFTPFile.m */,
-				04508640C85EC65065D04E9859398C86 /* NMSSH.h */,
-				33AD3A5B63EFFD1A34FB48AD7470977B /* NMSSH.h */,
-				2E1F09035964AEEE729FF22F097DF91B /* NMSSH+Protected.h */,
-				1FE2F17638042092AEA76ABE5927DDD0 /* NMSSHChannel.h */,
-				7B89D214120FF4498D9757429FA49780 /* NMSSHChannel.m */,
-				0B0D89DC37E360ED5A3BC4305136EDE5 /* NMSSHChannelDelegate.h */,
-				72BC00A7F2A2F6B8438846EEC0FBF793 /* NMSSHConfig.h */,
-				B1B18A7F675E2E350144B485E9A0F589 /* NMSSHConfig.m */,
-				8A147927B35C383FE6E932B573F6A002 /* NMSSHHostConfig.h */,
-				6C31A72D57D4A02AE92FD7D2F7D154F6 /* NMSSHHostConfig.m */,
-				0C22BE9CA5A39E178686FCF0E2F1E0A2 /* NMSSHLogger.h */,
-				A85C4C0953717463A1EA0C1EC81234AB /* NMSSHLogger.m */,
-				C4C304E1EEFFFC7BE669B4BDFBC39699 /* NMSSHSession.h */,
-				9319AD3C888779758B5D45B82C55C9CE /* NMSSHSession.m */,
-				A5B0A0603E4ABA5C9B9F983F1E4CA3E8 /* NMSSHSessionDelegate.h */,
-				613A48036D05056E9C4C61EBC03FC29F /* socket_helper.h */,
-				04C74C8540E3CC5CF4DC96A40D5C02F7 /* socket_helper.m */,
-				2E06B20AB9916A8FD685839FA3FC967B /* Frameworks */,
-				6886A20FE7D5406D6633C88E4B34B3A1 /* Support Files */,
+				845ADA5E257EDCECF19B803D75349B9A /* NMSSH.modulemap */,
+				A5D02B763FE2400A683B1ECB3196EB91 /* NMSSH-dummy.m */,
+				E57C4C85DD3ADCC1B864FE40EEC9CDC8 /* NMSSH-Info.plist */,
+				86E2E12527BFBB6A595F65EF22A2CAE5 /* NMSSH-prefix.pch */,
+				37FEC76F7C7E39B99E3C79B37F216309 /* NMSSH-umbrella.h */,
+				D0220094B7638962EEC9A756BB5BB4D2 /* NMSSH.debug.xcconfig */,
+				84D743A1960050EEFB980113285DFC32 /* NMSSH.release.xcconfig */,
 			);
-			name = NMSSH;
-			path = NMSSH;
+			name = "Support Files";
+			path = "../Target Support Files/NMSSH";
 			sourceTree = "<group>";
 		};
-		2E06B20AB9916A8FD685839FA3FC967B /* Frameworks */ = {
+		180F6D477E0A5C8DE9E6C44AF948E735 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EF10C3D2C815AE0C21345F48E413E1FE /* libcrypto.a */,
-				022DD921D4370E6DE33ABFF494BDD44C /* libssh2.a */,
-				1A2093944D7662D1E50DB163371A3456 /* libssl.a */,
+				6B6C337B2521A9490D4D3EE3BD254BF6 /* CFNetwork.framework */,
+				7AD210561E5EB6E0EF29007A69CB494B /* Foundation.framework */,
+				CEA1C1073651CD11E5EAFB9310ADE83E /* MobileCoreServices.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27C3B1EF6B236385626093E58A099DBB /* WebDAV */ = {
+			isa = PBXGroup;
+			children = (
+				4D99ECC073F9B51AAED0F42323F0319A /* GCDWebDAVServer.h */,
+				BC65680C75E4844FB9F712FE166AB317 /* GCDWebDAVServer.m */,
+			);
+			name = WebDAV;
+			sourceTree = "<group>";
+		};
+		41B27A178BF4562D708E06102075D0C1 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				7E07D88F7D17F2459C4E34DB8B4570BE /* Core */,
+				E2EE337F5C7C1F828696978B26DF3D51 /* Support Files */,
+				27C3B1EF6B236385626093E58A099DBB /* WebDAV */,
+				E77C391EC1BD4FB61BFF6283A148FE06 /* WebUploader */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
 		5B5DA839F163C390032A6731992655AE /* Pods-test-sshTests */ = {
@@ -256,36 +351,70 @@
 			path = "Target Support Files/Pods-test-sshTests";
 			sourceTree = "<group>";
 		};
-		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+		6BEA96E0ABE5FBC7C638D1E1B9473458 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
-				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+				2462FC95F4EAED216133B18B15C0DD3D /* libcrypto.a */,
+				DEB7BBBB23EFDDCE067A08B543A76DCF /* libssh2.a */,
+				ABF0CA6BC5FB4B4A3F59B0B70D35F695 /* libssl.a */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6886A20FE7D5406D6633C88E4B34B3A1 /* Support Files */ = {
+		7E07D88F7D17F2459C4E34DB8B4570BE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				29A49FD857460D7C27B855E135F14685 /* NMSSH.modulemap */,
-				400F4CDB78660A3C60B607768CA8933A /* NMSSH-dummy.m */,
-				BA992949B48A28FBDF0B1EDEA564C3FC /* NMSSH-Info.plist */,
-				637BA09DF29A7DF4F78F1E4D1FE7C466 /* NMSSH-prefix.pch */,
-				5BE124E2A15EE01B9BA2ADF9715AC757 /* NMSSH-umbrella.h */,
-				B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */,
-				F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */,
+				F0E35ABC935485AEF5F352CB6C7567AE /* GCDWebServer.h */,
+				A476F0A9CA4DDEADD874846258DE673A /* GCDWebServer.m */,
+				BF626D68794D2333A8CE995FFDEDE019 /* GCDWebServerConnection.h */,
+				5A3628A1EE9725501A66BEB47D4B1F1D /* GCDWebServerConnection.m */,
+				F031B3D8BD14AEE5C7A8C2D39A7915DB /* GCDWebServerDataRequest.h */,
+				F7E0DE974ABED9F65908795669ADCED6 /* GCDWebServerDataRequest.m */,
+				3F20F9184AC5D566ADF4042F92A825CA /* GCDWebServerDataResponse.h */,
+				41A12CDAC70A6710996815048A78940F /* GCDWebServerDataResponse.m */,
+				5EB79150722C76FC7F669CEE92747E49 /* GCDWebServerErrorResponse.h */,
+				029AA5B228BCBF6222F9CFA527376C1A /* GCDWebServerErrorResponse.m */,
+				28B5262D7B64676F22FD31B5D40E5D94 /* GCDWebServerFileRequest.h */,
+				D624E65672E6A94BD82D4EDB768FC0CF /* GCDWebServerFileRequest.m */,
+				87CF7C64C184C40B9528F9D4FE6D09A9 /* GCDWebServerFileResponse.h */,
+				6F5FA5B816B7C82378DE2A0BC735C637 /* GCDWebServerFileResponse.m */,
+				A6FFC2012A0688597E83E5BD179C4B02 /* GCDWebServerFunctions.h */,
+				4EBC2E03FE277D27D32A6DDC4E99DDC3 /* GCDWebServerFunctions.m */,
+				DAD7C1DA36A8BAD5CE42519D90BB77CF /* GCDWebServerHTTPStatusCodes.h */,
+				699EF2B08FB8759A5F69740416DB6267 /* GCDWebServerMultiPartFormRequest.h */,
+				421610A9912DCFDE5F0DDB5E82E0FEBF /* GCDWebServerMultiPartFormRequest.m */,
+				2C98D03129809642829148FB9CE12866 /* GCDWebServerPrivate.h */,
+				2CD90446D3E669FFF78B93DD2897FA11 /* GCDWebServerRequest.h */,
+				43771E8F8489F7AA62C3BA89CFF3F868 /* GCDWebServerRequest.m */,
+				EEF705566104885ABDE1735786B969CE /* GCDWebServerResponse.h */,
+				C3ABDC1F64B1E4410B8C9A97841F5FA3 /* GCDWebServerResponse.m */,
+				B726CFBA62DACC471C29704F0DEE33E3 /* GCDWebServerStreamedResponse.h */,
+				C29B9DE9A2D494B2FFA22767D4817C37 /* GCDWebServerStreamedResponse.m */,
+				DC99EDE5EE84EC69498E3F4050046616 /* GCDWebServerURLEncodedFormRequest.h */,
+				C3F61BAC8184125056922452263106F8 /* GCDWebServerURLEncodedFormRequest.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NMSSH";
+			name = Core;
 			sourceTree = "<group>";
 		};
-		CD460DBDBBBB87983A90ECBFD0EB6719 /* Pods */ = {
+		99E8F19C7C0135B97B3FADF84403365F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				227C294C046C3FDE2D181914AF4B6E35 /* NMSSH */,
+				41B27A178BF4562D708E06102075D0C1 /* GCDWebServer */,
+				FE0883597213FEB1E0C9FC987CAD299D /* NMSSH */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7B1D4F6BA3EC77FADBF581122D0918C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */,
+				6EEC77F51858349E93EF74E23C115C64 /* NMSSH */,
+				66BB7D91D3675C435C57CDF533D28060 /* Pods-test-ssh */,
+				28D3A25E11F47E1F0C1615047DEF0E29 /* Pods-test-ssh-test-sshUITests */,
+				5C1862C3ACDBF3A8D1C0B341CFDD9387 /* Pods-test-sshTests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CD6F674C57D85D2E30E50F86E0108BF5 /* Pods-test-ssh */ = {
@@ -309,11 +438,44 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				CD460DBDBBBB87983A90ECBFD0EB6719 /* Pods */,
-				08DCF7861B620821F210AB03EDA3E308 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				99E8F19C7C0135B97B3FADF84403365F /* Pods */,
+				C7B1D4F6BA3EC77FADBF581122D0918C /* Products */,
 				FFB0B63B6705C9B6CE29B5E509ACC8D3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D9407BB4D28BC245F5B6D1E0B9269725 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C79FC00D9F532CA2696DDC963B3F806F /* GCDWebUploader.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2EE337F5C7C1F828696978B26DF3D51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB586F7B30E318E534DAF44AB480DCF4 /* GCDWebServer.modulemap */,
+				580BC400180C5C80549E7B1E3C73450D /* GCDWebServer-dummy.m */,
+				41A3695B2C54D77775FB940E1B2361D4 /* GCDWebServer-Info.plist */,
+				125C4EFE1963FF98E19A72FF13633D1E /* GCDWebServer-prefix.pch */,
+				983B700016CE9279875547D9D4C9D99F /* GCDWebServer-umbrella.h */,
+				05D3834D57403AD44ECB42C7C15131F1 /* GCDWebServer.debug.xcconfig */,
+				0C9BD54BA080902C17C05F9B2419574C /* GCDWebServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		E77C391EC1BD4FB61BFF6283A148FE06 /* WebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				DE21C2785A5A354E141B795909BFA192 /* GCDWebUploader.h */,
+				24CB7AD4252D15C303A785A8BA5FDD1D /* GCDWebUploader.m */,
+				D9407BB4D28BC245F5B6D1E0B9269725 /* Resources */,
+			);
+			name = WebUploader;
 			sourceTree = "<group>";
 		};
 		EF1AF38CD5D509F60093C0CEF9D688DD /* Pods-test-ssh-test-sshUITests */ = {
@@ -333,6 +495,40 @@
 			path = "Target Support Files/Pods-test-ssh-test-sshUITests";
 			sourceTree = "<group>";
 		};
+		FE0883597213FEB1E0C9FC987CAD299D /* NMSSH */ = {
+			isa = PBXGroup;
+			children = (
+				968D30FECFE9CBBC77FE21525BBCED85 /* libssh2.h */,
+				5F3DAEA376212EEAAC1607DF991EFE43 /* libssh2_publickey.h */,
+				C25F7690857C10EEE8FDC1C5A88DB496 /* libssh2_sftp.h */,
+				98B49892DA679D12EB1D2A26A7F7BD3C /* NMSFTP.h */,
+				7C4B3264F2A5AD053316C3F252E2C0D0 /* NMSFTP.m */,
+				62DFEA5281C50756304B4CE191CC9E93 /* NMSFTPFile.h */,
+				CE19E8563BF657D296B91841EFEDE3F1 /* NMSFTPFile.m */,
+				89745DA13B51D8B5FE3D55E60B8D7960 /* NMSSH.h */,
+				2BC12E73F113141EB39A5ECE0DDB98EA /* NMSSH.h */,
+				AD33F6703AD9C74EB9B17A3A2A1B266F /* NMSSH+Protected.h */,
+				60C020EEFD11D63F9A69E5D7D40A59DB /* NMSSHChannel.h */,
+				D553FE257389B4898E9D005DF9420116 /* NMSSHChannel.m */,
+				A0CBF58A36C0B57816D098BCD316250C /* NMSSHChannelDelegate.h */,
+				0C8EACDF1632687EDB7E74C62C85953A /* NMSSHConfig.h */,
+				AE957377B8EBE4E6E3DC0AD0714BCE41 /* NMSSHConfig.m */,
+				ACF1C0AD34111FA30C7167680E5D72D6 /* NMSSHHostConfig.h */,
+				AB79A790A87786A39E29C05E6C679877 /* NMSSHHostConfig.m */,
+				227D01E119335ECBF62585D9B1C1DE3D /* NMSSHLogger.h */,
+				7E3E3DB36641DDDEF50573F1E3204E07 /* NMSSHLogger.m */,
+				11119E7BEA76D5B41D7E4855A48D3AC7 /* NMSSHSession.h */,
+				F9DEA432302BE8CEE94E07C463BAA98B /* NMSSHSession.m */,
+				74D74325F42B2461DD6902140B8C108E /* NMSSHSessionDelegate.h */,
+				BEBA8DC549026E3A0CDE52836E60FB38 /* socket_helper.h */,
+				2E16339125E894AC37B6DF031D716A39 /* socket_helper.m */,
+				6BEA96E0ABE5FBC7C638D1E1B9473458 /* Frameworks */,
+				14E3E2E9B722ABD4C6E2FC3A6193F970 /* Support Files */,
+			);
+			name = NMSSH;
+			path = NMSSH;
+			sourceTree = "<group>";
+		};
 		FFB0B63B6705C9B6CE29B5E509ACC8D3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +542,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2EBD486B25158158DA907FA085ED5C15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF84771C1AE6E45391C52A27A4FC8B8F /* Pods-test-ssh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A547D30113F77A6CC0C5E7B783CE6CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,19 +574,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B139CEB98961E49A5A66C30C1BE38FC /* Headers */ = {
+		A4847842A0224C10D72CBFCC7A925457 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A937A2F5F56CB574F4973C92EDBC2B8E /* Pods-test-ssh-test-sshUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5112FEEEFEC377981E2EC3DB84F247E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E7FA8778A68B8EDB8A92F363A266A75 /* Pods-test-ssh-umbrella.h in Headers */,
+				B7D00A07C7A95F770B1A26455C23CA13 /* GCDWebDAVServer.h in Headers */,
+				79EA723D08980C26B04E7BD8E8240E1B /* GCDWebServer.h in Headers */,
+				5D63CF906DA24C91483F0B71B1026E58 /* GCDWebServer-umbrella.h in Headers */,
+				675614EA9F6E7D664531D0D5D0510414 /* GCDWebServerConnection.h in Headers */,
+				9F1EBB7C3AFFB6CD771E0DFF0081AAAE /* GCDWebServerDataRequest.h in Headers */,
+				9E057AFA4108DBDB2CCAB9C00A2608F4 /* GCDWebServerDataResponse.h in Headers */,
+				0A5610D1151193E07CAFEC16F7391AB5 /* GCDWebServerErrorResponse.h in Headers */,
+				64AAB9781B62B323C8E0BD67CD619B4F /* GCDWebServerFileRequest.h in Headers */,
+				45D0C4D6D0B78468FF7142487BAF12B9 /* GCDWebServerFileResponse.h in Headers */,
+				E32052208A832E3D0DDA005164A4CC1C /* GCDWebServerFunctions.h in Headers */,
+				E51CAF1380C5A194E3C2FBCA615921D2 /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				84D513324D8F12CBE82A11B2DE35AF32 /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				F042B50E435E3306FAA9521636FC1857 /* GCDWebServerPrivate.h in Headers */,
+				A8062A665C463A309335804428A3E268 /* GCDWebServerRequest.h in Headers */,
+				AA4CCAB0CE6E0D373C52A4C6E4C13515 /* GCDWebServerResponse.h in Headers */,
+				A66FE9BB3923B479BC9FF6E413F0E07A /* GCDWebServerStreamedResponse.h in Headers */,
+				AB8A9981FC5FCC767BDFACAA9B0C3AB7 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+				819451541A694B71F23821F3ABCF1436 /* GCDWebUploader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,22 +607,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F43F9347EC0BEC4C44F4179329814A1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E99822BE1FBF36DF372826E91D785B /* Pods-test-ssh-test-sshUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2FFDC8590F6B68E832185976C06A118C /* Pods-test-ssh-test-sshUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF87B3AFF8ADED1962C7D9127CA685C /* Build configuration list for PBXNativeTarget "Pods-test-ssh-test-sshUITests" */;
+			buildConfigurationList = 694D525B8E0BC082559054D5F7CAA456 /* Build configuration list for PBXNativeTarget "Pods-test-ssh-test-sshUITests" */;
 			buildPhases = (
-				7B139CEB98961E49A5A66C30C1BE38FC /* Headers */,
-				1B6C3B8378F7EBA07927911CBFAB2238 /* Sources */,
-				8FD69CA127122D9D900F82584F2DF7D4 /* Frameworks */,
-				84D6E709EF34772B627291B145EED112 /* Resources */,
+				F43F9347EC0BEC4C44F4179329814A1B /* Headers */,
+				D46628ABA3FF01BB27A4AF12CDCF6847 /* Sources */,
+				32E253057EE4602017E90CE0D889DFAD /* Frameworks */,
+				AA7ECACF1A503D64CD0B6BF98F2325B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6020C87FF9A22C8D2B77838EFF260AE9 /* PBXTargetDependency */,
+				9E50A47DC1B7A93B785079345D535D99 /* PBXTargetDependency */,
+				7CDE05E524EAC56C0BAC9631781C4D00 /* PBXTargetDependency */,
 			);
 			name = "Pods-test-ssh-test-sshUITests";
 			productName = Pods_test_ssh_test_sshUITests;
@@ -428,7 +650,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				371970A8A295553604BC9435A06480E2 /* PBXTargetDependency */,
+				CBFA37283804917E1D5075D676B7A3A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-test-sshTests";
 			productName = Pods_test_sshTests;
@@ -437,21 +659,40 @@
 		};
 		754E71FC735602AAB7D4DD01668AA4CD /* Pods-test-ssh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F763F6EDCDF79D40266B23D99456AB38 /* Build configuration list for PBXNativeTarget "Pods-test-ssh" */;
+			buildConfigurationList = C1910BF5754AA1949688F0600E61AE90 /* Build configuration list for PBXNativeTarget "Pods-test-ssh" */;
 			buildPhases = (
-				C5112FEEEFEC377981E2EC3DB84F247E /* Headers */,
-				C4598C07FDFD51EC4F23951A9252D614 /* Sources */,
-				B3EBC5EAD5EC439F6F1D44D9FB23C0FC /* Frameworks */,
-				6EBA8BA0B3BB9518CA49A53353932A6E /* Resources */,
+				2EBD486B25158158DA907FA085ED5C15 /* Headers */,
+				95622D9BB8BD4291514E074993DBDB7C /* Sources */,
+				00B39D70D27AA1BAADBE0F70B2763C71 /* Frameworks */,
+				F0D8865989AE348C28F5407DC9611B66 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7B8B06C186ED7D8D2A3947D7D5503039 /* PBXTargetDependency */,
+				F82714801C1B417EDE4864094FEDBE3C /* PBXTargetDependency */,
+				A3A16941A994D5B7DC8A90F64AC71AB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-test-ssh";
 			productName = Pods_test_ssh;
 			productReference = 66BB7D91D3675C435C57CDF533D28060 /* Pods-test-ssh */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA7466661940F4639D4B452DF635AF1 /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				A4847842A0224C10D72CBFCC7A925457 /* Headers */,
+				E3FA6618A60C29FFBA72C3D54D148596 /* Sources */,
+				AA2AA3D9466B7F4555779297DEBFC0EE /* Frameworks */,
+				109483A306170097B34E7683DAE43C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */;
 			productType = "com.apple.product-type.framework";
 		};
 		E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */ = {
@@ -490,10 +731,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 08DCF7861B620821F210AB03EDA3E308 /* Products */;
+			productRefGroup = C7B1D4F6BA3EC77FADBF581122D0918C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */,
 				E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */,
 				754E71FC735602AAB7D4DD01668AA4CD /* Pods-test-ssh */,
 				2FFDC8590F6B68E832185976C06A118C /* Pods-test-ssh-test-sshUITests */,
@@ -503,6 +745,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		109483A306170097B34E7683DAE43C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEF3AEF941FEFF5BAC4B4DE6F047155 /* GCDWebUploader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AE232B96C0C6AB13BD1FFF5187BAA46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,14 +767,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EBA8BA0B3BB9518CA49A53353932A6E /* Resources */ = {
+		AA7ECACF1A503D64CD0B6BF98F2325B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84D6E709EF34772B627291B145EED112 /* Resources */ = {
+		F0D8865989AE348C28F5407DC9611B66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,14 +784,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B6C3B8378F7EBA07927911CBFAB2238 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C9DBA100315C1E5E2A977BDC7DB5F20 /* Pods-test-ssh-test-sshUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E8983C462F554BA5302BC7EAED9DD2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,11 +792,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4598C07FDFD51EC4F23951A9252D614 /* Sources */ = {
+		95622D9BB8BD4291514E074993DBDB7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3964816C2827AF46B3B8632D52D92B /* Pods-test-ssh-dummy.m in Sources */,
+				879AB65ADFB80C9F54C370222D3E1519 /* Pods-test-ssh-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46628ABA3FF01BB27A4AF12CDCF6847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE31C935DBDB37868B2259A217ADD04 /* Pods-test-ssh-test-sshUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA6618A60C29FFBA72C3D54D148596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F178457D47562B7AC5DDD65A280F22CA /* GCDWebDAVServer.m in Sources */,
+				E8622F8D6BD06020203B800FF4D73741 /* GCDWebServer.m in Sources */,
+				1F878440ABCB2268CFB20BA428A0499E /* GCDWebServer-dummy.m in Sources */,
+				66FD6DA4C2464AA6AA196DBC84FE4BFE /* GCDWebServerConnection.m in Sources */,
+				3A743CD8797007653DC2206429593A66 /* GCDWebServerDataRequest.m in Sources */,
+				7A8A4A07043909D6C526DC4082CB81A4 /* GCDWebServerDataResponse.m in Sources */,
+				62E417FFB705B06C4B13A9D44C7BC5CA /* GCDWebServerErrorResponse.m in Sources */,
+				F60D4BDFC711729F936687D4C95192CF /* GCDWebServerFileRequest.m in Sources */,
+				42D3F1FBFC4C2516ACBBB6290A3E04E2 /* GCDWebServerFileResponse.m in Sources */,
+				60095D67FEE8401650E769B74087FAB9 /* GCDWebServerFunctions.m in Sources */,
+				9AE83CA45F24CBD9E28F19354AF6DCF7 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				48C9C6190D23AADCCE5FBB7AFBBC89C2 /* GCDWebServerRequest.m in Sources */,
+				3C11C295A50CFF7D6BE887681F00D924 /* GCDWebServerResponse.m in Sources */,
+				1F179176EF9A451BF24DADAD4B624C44 /* GCDWebServerStreamedResponse.m in Sources */,
+				0068907DF4886B410B04CA9E96B3EA2E /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				DC2AB15F19ED314816D5A2732F77BC62 /* GCDWebUploader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,27 +850,77 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		371970A8A295553604BC9435A06480E2 /* PBXTargetDependency */ = {
+		7CDE05E524EAC56C0BAC9631781C4D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMSSH;
+			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
+			targetProxy = 061E085E39827E36E70ED4D556C48F16 /* PBXContainerItemProxy */;
+		};
+		9E50A47DC1B7A93B785079345D535D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = 632F33DF9A6A52CC6450782765AC95EC /* PBXContainerItemProxy */;
+		};
+		A3A16941A994D5B7DC8A90F64AC71AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMSSH;
+			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
+			targetProxy = 6913421E30469F0B75024763B4551405 /* PBXContainerItemProxy */;
+		};
+		CBFA37283804917E1D5075D676B7A3A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-test-ssh";
 			target = 754E71FC735602AAB7D4DD01668AA4CD /* Pods-test-ssh */;
-			targetProxy = 113E4044F9F23D1907E475766C30D87F /* PBXContainerItemProxy */;
+			targetProxy = 3A9C0026E113D0B2E8F97332F05434FA /* PBXContainerItemProxy */;
 		};
-		6020C87FF9A22C8D2B77838EFF260AE9 /* PBXTargetDependency */ = {
+		F82714801C1B417EDE4864094FEDBE3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = NMSSH;
-			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
-			targetProxy = 6C95A6C9A25352C0408403A8EF7A73E1 /* PBXContainerItemProxy */;
-		};
-		7B8B06C186ED7D8D2A3947D7D5503039 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NMSSH;
-			target = E36E3194AA9B06BC5873E083ED10B917 /* NMSSH */;
-			targetProxy = 9ED80D124225CC4B87AC2E2B171D6172 /* PBXContainerItemProxy */;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = F890369F4202BC9271FAC3F845C4D1FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0039AB7ACB1670D02D4F536E17E91F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE61406494D2826D1DC33C1FB6F943B /* Pods-test-ssh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-test-ssh/Pods-test-ssh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-test-ssh/Pods-test-ssh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		08DA85F14E3EB351C9C149CBA0FDC030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61169B78DA3DFF0729DD3F2E7D53E0CA /* Pods-test-sshTests.release.xcconfig */;
@@ -636,7 +959,41 @@
 			};
 			name = Release;
 		};
-		24852179C56F929FA5D77F9FB20DD8B1 /* Release */ = {
+		1E1A7E355195DA4B74CCEDD097362132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D3834D57403AD44ECB42C7C15131F1 /* GCDWebServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		349D48CE53A4AAF6800AA3D84297C955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01C2941BB0D12B84BAF192817ECE52CE /* Pods-test-ssh-test-sshUITests.release.xcconfig */;
 			buildSettings = {
@@ -804,7 +1161,7 @@
 		};
 		5E78BF2085668E22CF7A9343151A26D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7A9274D8DAC92A26076A19A8EF32079 /* NMSSH.debug.xcconfig */;
+			baseConfigurationReference = D0220094B7638962EEC9A756BB5BB4D2 /* NMSSH.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -836,12 +1193,10 @@
 			};
 			name = Debug;
 		};
-		8A2DBFB992C86FF8FEE7CC9E9917E59A /* Release */ = {
+		912869E59F68EA8016F206764542F959 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEE61406494D2826D1DC33C1FB6F943B /* Pods-test-ssh.release.xcconfig */;
+			baseConfigurationReference = 0C9BD54BA080902C17C05F9B2419574C /* GCDWebServer.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -850,23 +1205,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-test-ssh/Pods-test-ssh-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-test-ssh/Pods-test-ssh.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -874,7 +1228,7 @@
 			};
 			name = Release;
 		};
-		AC35DA32A29775259479B0AE156EAF0D /* Debug */ = {
+		A1CC3580B113FF6D568D5FB6F22FADDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F07C8603A91B61C01BCE05E17BBC913B /* Pods-test-ssh-test-sshUITests.debug.xcconfig */;
 			buildSettings = {
@@ -948,7 +1302,7 @@
 			};
 			name = Debug;
 		};
-		C663670AEDB8CD7FA743090453C7212E /* Debug */ = {
+		BC5E37CFB6DFDDEC8E8ECCC8BE227CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE652A964E1CAE90DF7DC2118D4FFE90 /* Pods-test-ssh.debug.xcconfig */;
 			buildSettings = {
@@ -987,7 +1341,7 @@
 		};
 		FE31994A31AE1946FC4D4BA9ACD1A825 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F61F16DCA5FFD289D7DD5B82474DA13C /* NMSSH.release.xcconfig */;
+			baseConfigurationReference = 84D743A1960050EEFB980113285DFC32 /* NMSSH.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1023,11 +1377,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EF87B3AFF8ADED1962C7D9127CA685C /* Build configuration list for PBXNativeTarget "Pods-test-ssh-test-sshUITests" */ = {
+		1DA7466661940F4639D4B452DF635AF1 /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC35DA32A29775259479B0AE156EAF0D /* Debug */,
-				24852179C56F929FA5D77F9FB20DD8B1 /* Release */,
+				1E1A7E355195DA4B74CCEDD097362132 /* Debug */,
+				912869E59F68EA8016F206764542F959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1050,6 +1404,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		694D525B8E0BC082559054D5F7CAA456 /* Build configuration list for PBXNativeTarget "Pods-test-ssh-test-sshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CC3580B113FF6D568D5FB6F22FADDF /* Debug */,
+				349D48CE53A4AAF6800AA3D84297C955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3A55A2CAF8E450150C0DBC702AEE491 /* Build configuration list for PBXNativeTarget "Pods-test-sshTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1059,11 +1422,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F763F6EDCDF79D40266B23D99456AB38 /* Build configuration list for PBXNativeTarget "Pods-test-ssh" */ = {
+		C1910BF5754AA1949688F0600E61AE90 /* Build configuration list for PBXNativeTarget "Pods-test-ssh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C663670AEDB8CD7FA743090453C7212E /* Debug */,
-				8A2DBFB992C86FF8FEE7CC9E9917E59A /* Release */,
+				BC5E37CFB6DFDDEC8E8ECCC8BE227CC9 /* Debug */,
+				0039AB7ACB1670D02D4F536E17E91F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

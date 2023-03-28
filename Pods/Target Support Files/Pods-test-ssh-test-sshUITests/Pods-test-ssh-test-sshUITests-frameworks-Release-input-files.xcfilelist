@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-test-ssh-test-sshUITests/Pods-test-ssh-test-sshUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
 ${BUILT_PRODUCTS_DIR}/NMSSH/NMSSH.framework

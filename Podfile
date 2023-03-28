@@ -7,6 +7,8 @@ target 'test-ssh' do
 
   # Pods for test-ssh
   pod 'NMSSH'
+  pod "GCDWebServer/WebUploader", "~> 3.0"
+  pod "GCDWebServer/WebDAV", "~> 3.0"
   target 'test-sshTests' do
     inherit! :search_paths
     # Pods for testing

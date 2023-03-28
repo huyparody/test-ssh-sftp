@@ -20,6 +20,8 @@
 		C332231229D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332231129D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift */; };
 		C332232229D0AC63001F9B3D /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232129D0AC63001F9B3D /* BonjourBrowser.swift */; };
 		C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */; };
+		C332232629D1F227001F9B3D /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232529D1F227001F9B3D /* WebServer.swift */; };
+		C332232929D353D2001F9B3D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C332232829D353D2001F9B3D /* Test.m */; };
 		E4741581C5EA69078F4983CE /* Pods_test_sshTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219230104FF2541509589FE /* Pods_test_sshTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,9 @@
 		C332231129D0ABC4001F9B3D /* test_sshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sshUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C332232129D0AC63001F9B3D /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
 		C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkAuthorization.swift; sourceTree = "<group>"; };
+		C332232529D1F227001F9B3D /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		C332232729D353D2001F9B3D /* test-ssh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-ssh-Bridging-Header.h"; sourceTree = "<group>"; };
+		C332232829D353D2001F9B3D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ssh_test_sshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +144,9 @@
 				C33222FC29D0ABC3001F9B3D /* Info.plist */,
 				C332232129D0AC63001F9B3D /* BonjourBrowser.swift */,
 				C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */,
+				C332232529D1F227001F9B3D /* WebServer.swift */,
+				C332232829D353D2001F9B3D /* Test.m */,
+				C332232729D353D2001F9B3D /* test-ssh-Bridging-Header.h */,
 			);
 			path = "test-ssh";
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				TargetAttributes = {
 					C33222EA29D0ABC3001F9B3D = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					C332230029D0ABC4001F9B3D = {
 						CreatedOnToolsVersion = 14.2;
@@ -416,7 +425,9 @@
 				C33222EF29D0ABC3001F9B3D /* AppDelegate.swift in Sources */,
 				C332232229D0AC63001F9B3D /* BonjourBrowser.swift in Sources */,
 				C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */,
+				C332232929D353D2001F9B3D /* Test.m in Sources */,
 				C33222F129D0ABC3001F9B3D /* SceneDelegate.swift in Sources */,
+				C332232629D1F227001F9B3D /* WebServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,9 +603,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				DEVELOPMENT_TEAM = JYX25W5WKZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "test-ssh/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -610,6 +622,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "test-ssh/test-ssh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -621,9 +635,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KWZTNUQM3X;
+				DEVELOPMENT_TEAM = JYX25W5WKZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "test-ssh/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -639,6 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "test-ssh/test-ssh-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

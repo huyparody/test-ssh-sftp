@@ -1,16 +1,25 @@
 PODS:
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
   - NMSSH (2.3.1)
 
 DEPENDENCIES:
+  - GCDWebServer/WebDAV (~> 3.0)
+  - GCDWebServer/WebUploader (~> 3.0)
   - NMSSH
 
 SPEC REPOS:
   trunk:
+    - GCDWebServer
     - NMSSH
 
 SPEC CHECKSUMS:
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   NMSSH: cd689ae535a1581a6dd9fd4600ff71247df510a6
 
-PODFILE CHECKSUM: 6cf3cb1a2264fbab112e4bf4c5f65f5d1c6ea722
+PODFILE CHECKSUM: cdfaf2341c065f2484767f2cffabaa7a25db68f6
 
 COCOAPODS: 1.11.3
