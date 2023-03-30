@@ -3,3 +3,5 @@
 //
 
 #import <GCDWebServer/GCDWebUploader.h>
+#import "LanScan.h"
+#import <SystemConfiguration/SystemConfiguration.h>

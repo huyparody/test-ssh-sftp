@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,13 @@
 		C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232329D0AF68001F9B3D /* LocalNetworkAuthorization.swift */; };
 		C332232629D1F227001F9B3D /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332232529D1F227001F9B3D /* WebServer.swift */; };
 		C332232929D353D2001F9B3D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C332232829D353D2001F9B3D /* Test.m */; };
+		C399800829D43F52008089C1 /* LanScan.m in Sources */ = {isa = PBXBuildFile; fileRef = C399800429D43F52008089C1 /* LanScan.m */; };
+		C399800929D43F52008089C1 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C399800629D43F52008089C1 /* SimplePing.m */; };
+		C399800A29D43F52008089C1 /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C399800729D43F52008089C1 /* PingOperation.m */; };
+		C399801229D57C33008089C1 /* SSDPClient in Frameworks */ = {isa = PBXBuildFile; productRef = C399801129D57C33008089C1 /* SSDPClient */; };
+		C399801529D57FFE008089C1 /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = C399801429D57FFE008089C1 /* NIO */; };
+		C399801729D57FFE008089C1 /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = C399801629D57FFE008089C1 /* NIOCore */; };
+		C399801929D57FFE008089C1 /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = C399801829D57FFE008089C1 /* NIOWebSocket */; };
 		E4741581C5EA69078F4983CE /* Pods_test_sshTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219230104FF2541509589FE /* Pods_test_sshTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +76,17 @@
 		C332232529D1F227001F9B3D /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
 		C332232729D353D2001F9B3D /* test-ssh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-ssh-Bridging-Header.h"; sourceTree = "<group>"; };
 		C332232829D353D2001F9B3D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		C3997FFF29D43F52008089C1 /* LanScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanScan.h; sourceTree = "<group>"; };
+		C399800029D43F52008089C1 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		C399800129D43F52008089C1 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		C399800229D43F52008089C1 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		C399800329D43F52008089C1 /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		C399800429D43F52008089C1 /* LanScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanScan.m; sourceTree = "<group>"; };
+		C399800529D43F52008089C1 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		C399800629D43F52008089C1 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		C399800729D43F52008089C1 /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		C399800B29D4408E008089C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C399801A29D583C2008089C1 /* test-ssh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "test-ssh.entitlements"; sourceTree = "<group>"; };
 		E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ssh_test_sshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C399801929D57FFE008089C1 /* NIOWebSocket in Frameworks */,
+				C399801529D57FFE008089C1 /* NIO in Frameworks */,
 				3AF5DD65CFEF855ED2A070C3 /* Pods_test_ssh.framework in Frameworks */,
+				C399801729D57FFE008089C1 /* NIOCore in Frameworks */,
+				C399801229D57C33008089C1 /* SSDPClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +125,7 @@
 		0BE965C96159DEBD35482576 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C399800B29D4408E008089C1 /* SystemConfiguration.framework */,
 				B727059250F6865F6AACC11B /* Pods_test_ssh.framework */,
 				E3E1076A2380C07F4624A359 /* Pods_test_ssh_test_sshUITests.framework */,
 				A219230104FF2541509589FE /* Pods_test_sshTests.framework */,
@@ -135,6 +158,8 @@
 		C33222ED29D0ABC3001F9B3D /* test-ssh */ = {
 			isa = PBXGroup;
 			children = (
+				C399801A29D583C2008089C1 /* test-ssh.entitlements */,
+				C3997FFE29D43F52008089C1 /* Scanner */,
 				C33222EE29D0ABC3001F9B3D /* AppDelegate.swift */,
 				C33222F029D0ABC3001F9B3D /* SceneDelegate.swift */,
 				C33222F229D0ABC3001F9B3D /* ViewController.swift */,
@@ -168,6 +193,22 @@
 			path = "test-sshUITests";
 			sourceTree = "<group>";
 		};
+		C3997FFE29D43F52008089C1 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				C3997FFF29D43F52008089C1 /* LanScan.h */,
+				C399800029D43F52008089C1 /* SimplePing.h */,
+				C399800129D43F52008089C1 /* route.h */,
+				C399800229D43F52008089C1 /* if_ether.h */,
+				C399800329D43F52008089C1 /* PingOperation.h */,
+				C399800429D43F52008089C1 /* LanScan.m */,
+				C399800529D43F52008089C1 /* if_arp.h */,
+				C399800629D43F52008089C1 /* SimplePing.m */,
+				C399800729D43F52008089C1 /* PingOperation.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
 		ED9FEBC9451B7EBB484E08B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +240,12 @@
 			dependencies = (
 			);
 			name = "test-ssh";
+			packageProductDependencies = (
+				C399801129D57C33008089C1 /* SSDPClient */,
+				C399801429D57FFE008089C1 /* NIO */,
+				C399801629D57FFE008089C1 /* NIOCore */,
+				C399801829D57FFE008089C1 /* NIOWebSocket */,
+			);
 			productName = "test-ssh";
 			productReference = C33222EB29D0ABC3001F9B3D /* test-ssh.app */;
 			productType = "com.apple.product-type.application";
@@ -267,7 +314,7 @@
 				};
 			};
 			buildConfigurationList = C33222E629D0ABC3001F9B3D /* Build configuration list for PBXProject "test-ssh" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -275,6 +322,10 @@
 				Base,
 			);
 			mainGroup = C33222E229D0ABC3001F9B3D;
+			packageReferences = (
+				C399801029D57C33008089C1 /* XCRemoteSwiftPackageReference "SSDPClient" */,
+				C399801329D57FFE008089C1 /* XCRemoteSwiftPackageReference "swift-nio" */,
+			);
 			productRefGroup = C33222EC29D0ABC3001F9B3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,8 +475,11 @@
 				C33222F329D0ABC3001F9B3D /* ViewController.swift in Sources */,
 				C33222EF29D0ABC3001F9B3D /* AppDelegate.swift in Sources */,
 				C332232229D0AC63001F9B3D /* BonjourBrowser.swift in Sources */,
+				C399800929D43F52008089C1 /* SimplePing.m in Sources */,
 				C332232429D0AF68001F9B3D /* LocalNetworkAuthorization.swift in Sources */,
+				C399800829D43F52008089C1 /* LanScan.m in Sources */,
 				C332232929D353D2001F9B3D /* Test.m in Sources */,
+				C399800A29D43F52008089C1 /* PingOperation.m in Sources */,
 				C33222F129D0ABC3001F9B3D /* SceneDelegate.swift in Sources */,
 				C332232629D1F227001F9B3D /* WebServer.swift in Sources */,
 			);
@@ -604,22 +658,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "test-ssh/test-ssh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYX25W5WKZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "test-ssh/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow apps to connect and debug app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.huyparody.test-ssh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "test-ssh/test-ssh-Bridging-Header.h";
@@ -636,22 +693,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "test-ssh/test-ssh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYX25W5WKZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "test-ssh/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow apps to connect and debug app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.huyparody.test-ssh";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.huyparody.test-ssh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "test-ssh/test-ssh-Bridging-Header.h";
@@ -780,6 +840,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C399801029D57C33008089C1 /* XCRemoteSwiftPackageReference "SSDPClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pierrickrouxel/SSDPClient.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C399801329D57FFE008089C1 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C399801129D57C33008089C1 /* SSDPClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C399801029D57C33008089C1 /* XCRemoteSwiftPackageReference "SSDPClient" */;
+			productName = SSDPClient;
+		};
+		C399801429D57FFE008089C1 /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C399801329D57FFE008089C1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		C399801629D57FFE008089C1 /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C399801329D57FFE008089C1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+		C399801829D57FFE008089C1 /* NIOWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C399801329D57FFE008089C1 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C33222E329D0ABC3001F9B3D /* Project object */;
 }
